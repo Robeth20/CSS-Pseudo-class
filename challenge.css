@@ -1,0 +1,50 @@
+body {
+   background-color: aquamarine;
+}
+h1 {
+   text-align: center; 
+   background-color: yellow;
+}
+button {
+    background-color: lightgray;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+button:active {
+    font-size: 1.2em;
+    color: white;
+}
+input[type="text"] {
+    padding: 10px;
+    transition: border 1.3s, color 1.3s;
+}
+
+input[type="text"]:focus {
+    border: 4px solid rgb(27, 223, 86);
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent; 
+}
+
+input[type="text"]:hover, input[type="text"]:focus {
+    color: rgb(27, 13, 214); 
+}
+a {
+    text-decoration: none;
+    color: rgb(233, 30, 30);
+    transition: color 0.3s, text-decoration 0.3s, font-weight 0.3s;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+
+
